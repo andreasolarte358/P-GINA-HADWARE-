@@ -26,7 +26,12 @@
 body {
     font-family: 'Inter', sans-serif;
     color: var(--text-main);
+    /* Fondo principal: imagen de computadoras con un overlay oscuro para mejorar la legibilidad */
     background-color: var(--bg-light);
+    background-image: linear-gradient(rgba(10,10,10,0.45), rgba(10,10,10,0.45)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1800&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     line-height: 1.6;
 }
 
